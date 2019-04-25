@@ -33,6 +33,10 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
